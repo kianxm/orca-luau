@@ -1,0 +1,29 @@
+{
+  "manifestVersion": 2,
+  "id": "orca-luau",
+  "name": "Luau Syntax",
+  "version": "1.0.0",
+  "execution": "data",
+  "description": "Luau highlighting for .luau and .lua files: type annotations, generics, string interpolation, attributes and the Roblox standard library.",
+  "license": "MIT",
+  "repository": "https://github.com/kianxm/orca-luau",
+  "engines": {
+    "orca": ">=1.4.246"
+  },
+  "contributes": {
+    "syntaxes": [
+      {
+        "id": "luau",
+        "title": "Luau",
+        "scopeName": "source.luau",
+        "path": "syntaxes/luau.tmLanguage.json",
+        "configuration": "syntaxes/language-configuration.json",
+        "extensions": [
+          ".luau",
+          ".lua"
+        ]
+      }
+    ]
+  },
+  "capabilities": []
+}
