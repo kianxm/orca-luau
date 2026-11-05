@@ -1,8 +1,8 @@
 {
   "manifestVersion": 2,
-  "id": "orca-luau",
+  "id": "luau-syntax",
   "name": "Luau Syntax",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "execution": "data",
   "description": "Luau highlighting for .luau and .lua files: type annotations, generics, string interpolation, attributes and the Roblox standard library.",
   "license": "MIT",
