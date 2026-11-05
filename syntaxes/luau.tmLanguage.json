@@ -418,6 +418,10 @@
         {
           "name": "constant.language.luau",
           "match": "(?<![^.]\\.|:)\\b(game|plugin|shared|script|workspace|Enum(?:\\.\\w+){0,2})\\b"
+        },
+        {
+          "name": "support.class.luau",
+          "match": "(?<![^.]\\.|:)\\b(Axes|BrickColor|CatalogSearchParams|CFrame|Color3|ColorSequence|ColorSequenceKeypoint|Content|DateTime|DockWidgetPluginGuiInfo|Faces|FloatCurveKey|Font|Instance|InstanceHandle|NumberRange|NumberSequence|NumberSequenceKeypoint|OverlapParams|Path2DControlPoint|PathWaypoint|PhysicalProperties|Random|Ray|RaycastParams|Rect|Region3|Region3int16|RotationCurveKey|Secret|SecurityCapabilities|SharedTable|TweenInfo|UDim|UDim2|User|ValueCurveKey|Vector2|Vector2int16|Vector3|Vector3int16)\\b"
         }
       ]
     },
